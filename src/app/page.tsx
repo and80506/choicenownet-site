@@ -37,14 +37,14 @@ export default function Home() {
                 ))}
               </ul>
 
-              <Link 
+              <a 
                 href={product.url} 
                 className="btn" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 立即开始 →
-              </Link>
+              </a>
             </div>
           ))}
         </section>
