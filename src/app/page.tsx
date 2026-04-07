@@ -54,8 +54,8 @@ export default function Home() {
         <p>&copy; {new Date().getFullYear()} ChoiceNowNet. All rights reserved.</p>
         <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center', gap: '2rem' }}>
           <Link href="/sitemap.xml">Sitemap</Link>
-          <a href="https://fintap.choicenownet.site/sitemap.xml" target="_blank" rel="noopener">云养鱼 Sitemap</a>
           <a href="https://contexta.choicenownet.site/sitemap.xml" target="_blank" rel="noopener">AI 情境英语 Sitemap</a>
+          <a href="https://fintap.choicenownet.site/sitemap.xml" target="_blank" rel="noopener">云摸鱼 Sitemap</a>
         </div>
       </footer>
     </>
