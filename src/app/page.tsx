@@ -7,7 +7,10 @@ export default function Home() {
       <div className="bg-glow" />
       
       <header className="header">
-        <div className="logo">ChoiceNowNet</div>
+        <div className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <img src="/logo.png" alt="ChoiceNowNet Logo" style={{ height: '40px', width: 'auto' }} />
+          ChoiceNowNet
+        </div>
         <nav>
           <Link href="#products" className="btn-secondary">所有产品</Link>
         </nav>
