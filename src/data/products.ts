@@ -12,11 +12,17 @@ export const products: Product[] = [
     {
         id: "contexta",
         name: "AI 情境英语 (Contexta)",
-        description: "基于 AI 的语境化英语学习平台。利用大语言模型实时生成个性化语境和故事，并结合艾宾浩斯记忆曲线算法，助您在真实情境中高效掌握地道表达。",
+        description: "利用大语言模型 (LLM) 为每个单词即时生成真实语境故事与例句，结合艾宾浩斯记忆曲线自动安排复习计划，让您的孩子在沉浸式阅读中高效积累英语词汇。",
         url: "https://contexta.choicenownet.site/",
         sitemapUrl: "https://contexta.choicenownet.site/sitemap.xml",
         icon: "🧠",
-        features: ["AI 动态语境生成", "艾宾浩斯记忆算法", "沉浸式故事学习模式"]
+        features: [
+            "AI 实时语境生成：不再死记硬背孤立的释义",
+            "动态故事模式：由 AI 编写包含目标单词的连贯短篇故事",
+            "艾宾浩斯自适应复习：科学规划复习周期",
+            "蓝思 (Lexile) 分级支持：根据学生水平定制内容难度",
+            "Cloudflare AI Gateway：极速响应与稳定的 AI 服务访问"
+        ]
     },
     {
         id: "fintap",
