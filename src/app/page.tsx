@@ -74,7 +74,7 @@ export default function Home() {
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} ChoiceNowNet. All rights reserved.</p>
         <div style={{ fontSize: '0.8rem', opacity: 0.7, marginTop: '0.5rem' }}>
-          ChoiceNowNet Development Hub • Tokyo, Japan / Global Distributed
+          ChoiceNowNet Development Hub • Global Distributed
         </div>
         <div style={{ marginTop: '1.5rem', display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
           <Link href="/sitemap.xml">Sitemap</Link>
@@ -86,9 +86,6 @@ export default function Home() {
         </div>
         <div style={{ marginTop: '2rem', fontSize: '0.75rem', opacity: 0.5 }}>
           最后更新时间: 2026年4月9日 | 致力于探索 AI 与人的无限可能
-        </div>
-        <div style={{ marginTop: '1rem', fontSize: '0.7rem', opacity: 0.4 }}>
-          Powered by <a href="https://openai.com" target="_blank" rel="noopener">OpenAI</a> & <a href="https://vercel.com" target="_blank" rel="noopener">Vercel</a> Technologies
         </div>
       </footer>
     </>
