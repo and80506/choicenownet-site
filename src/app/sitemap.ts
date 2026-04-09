@@ -8,18 +8,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
     },
-    // 主站可以链接到子域名的主要入口
     {
-      url: 'https://fintap.choicenownet.site/',
+      url: 'https://choicenownet.site/privacy',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
+      changeFrequency: 'monthly',
+      priority: 0.5,
     },
     {
-      url: 'https://contexta.choicenownet.site/',
+      url: 'https://choicenownet.site/terms',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
+      changeFrequency: 'monthly',
+      priority: 0.5,
     },
   ];
 }

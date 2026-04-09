@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://choicenownet.site"),
   title: "ChoiceNowNet - 探索 AI 驱动的智能与互动创新产品集合",
-  description: "ChoiceNowNet 致力于通过 AI 驱动的创新技术，为您打造高效、有趣的智能数字生活体验。我们的产品集合包括 AI 情境英语 (Contexta) 沉浸式学习平台和云摸鱼 (FinTap) 3D 虚拟水族馆，旨在探索未来互动与娱乐的无限可能，提升您的数字化生活品质。",
+  description: "ChoiceNowNet 致力于通过 AI 驱动的创新技术，为您打造高效、有趣的智能生活体验。汇集 AI 情境英语 (Contexta) 和云摸鱼 (FinTap) 等前沿产品，探索未来互动与娱乐的无限可能。",
   keywords: ["ChoiceNowNet", "AI情境英语", "云摸鱼", "FinTap", "Contexta", "智能生活", "AI学习"],
   alternates: {
     canonical: "/",
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     siteName: "ChoiceNowNet",
     images: [
       {
-        url: "/logo.png",
-        width: 1024,
-        height: 1024,
-        alt: "ChoiceNowNet Logo",
+        url: "/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "ChoiceNowNet - Discover AI-driven Smart Life",
       },
     ],
     locale: "zh_CN",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ChoiceNowNet - 探索 AI 驱动的智能 with 互动创新产品集合",
+    title: "ChoiceNowNet - 探索 AI 驱动的智能与互动创新产品集合",
     description: "发现未来的数字生活方式。汇集 AI 情境英语 (Contexta) 与云摸鱼 (FinTap) 等前沿产品，为您打造高效、有趣的智能互动体验。",
-    images: ["/logo.png"],
+    images: ["/og-image.webp"],
   },
   robots: {
     index: true,
@@ -39,6 +39,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.webp",
+    apple: "/logo.webp",
   },
 };
 
@@ -53,6 +54,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+        <noscript>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
