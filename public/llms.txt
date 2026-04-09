@@ -1,0 +1,18 @@
+# ChoiceNowNet - AI Driven Smart Life Portal
+
+ChoiceNowNet is a collection of innovative digital products powered by AI and interactive technologies.
+
+## Products
+
+### AI Context English (Contexta)
+- URL: https://contexta.choicenownet.site
+- Description: Immersive English learning platform using AI to generate real-world contexts and stories.
+- Key Features: AI real-time context generation, Ebbinghaus adaptive review, Lexile leveling.
+
+### FinTap
+- URL: https://fintap.choicenownet.site
+- Description: 3D interactive virtual aquarium for work-life balance and relaxation.
+- Key Features: 3D fish tank simulation, mobile-first design, interactive visual effects.
+
+## Organization
+ChoiceNowNet is dedicated to exploring the boundaries of AI in education and entertainment.

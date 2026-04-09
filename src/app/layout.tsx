@@ -4,21 +4,34 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ChoiceNowNet - 探索智能与互动的产品集合",
-  description: "ChoiceNowNet 汇集了 AI 情境英语 (Contexta) 和 云摸鱼 (FinTap) 等前沿数字产品。通过 AI 和互动技术，为您带来高效、有趣的智能生活体验。",
+  metadataBase: new URL("https://choicenownet.site"),
+  title: "ChoiceNowNet - 探索 AI 驱动的智能与互动创新产品集合",
+  description: "ChoiceNowNet 致力于通过 AI 驱动的创新技术，为您打造高效、有趣的智能数字生活体验。我们的产品集合包括 AI 情境英语 (Contexta) 沉浸式学习平台和云摸鱼 (FinTap) 3D 虚拟水族馆，旨在探索未来互动与娱乐的无限可能，提升您的数字化生活品质。",
   keywords: ["ChoiceNowNet", "AI情境英语", "云摸鱼", "FinTap", "Contexta", "智能生活", "AI学习"],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "ChoiceNowNet - 智能产品集合",
-    description: "发现未来的数字生活方式。汇集 AI 学习与互动娱乐产品。",
+    title: "ChoiceNowNet - 探索 AI 驱动的智能与互动创新产品集合",
+    description: "ChoiceNowNet 致力于通过 AI 驱动的创新技术，为您打造高效、有趣的智能数字生活体验。我们的产品集合包括 AI 情境英语 (Contexta) 沉浸式学习平台和云摸鱼 (FinTap) 3D 虚拟水族馆。",
     url: "https://choicenownet.site",
     siteName: "ChoiceNowNet",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1024,
+        height: 1024,
+        alt: "ChoiceNowNet Logo",
+      },
+    ],
     locale: "zh_CN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ChoiceNowNet - 智能产品集合",
-    description: "发现未来的数字生活方式。汇集 AI 学习与互动娱乐产品。",
+    title: "ChoiceNowNet - 探索 AI 驱动的智能 with 互动创新产品集合",
+    description: "发现未来的数字生活方式。汇集 AI 情境英语 (Contexta) 与云摸鱼 (FinTap) 等前沿产品，为您打造高效、有趣的智能互动体验。",
+    images: ["/logo.png"],
   },
   robots: {
     index: true,
@@ -55,6 +68,11 @@ export default function RootLayout({
                   "publisher": {
                     "@type": "Organization",
                     "name": "ChoiceNowNet"
+                  },
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://choicenownet.site/?q={search_term_string}",
+                    "query-input": "required name=search_term_string"
                   }
                 },
                 {
@@ -180,6 +198,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <a href="#main-content" className="skip-link">跳到主要内容</a>
         {children}
         <Analytics />
         <SpeedInsights />
