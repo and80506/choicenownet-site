@@ -114,7 +114,7 @@ export default function PrivacyPage() {
           <h2 style={{ color: 'white', marginBottom: '1.5rem' }}>联系我们</h2>
           <p>如果您对本隐私政策有任何疑问，请联系我们：</p>
           <p style={{ marginTop: '1rem', fontSize: '1.2rem', color: 'var(--primary)' }}>
-            Email: <a href="mailto:support@choicenownet.site">privacy@choicenownet.site</a>
+            Email: <a href="mailto:support@choicenownet.site">support@choicenownet.site</a>
           </p>
         </footer>
       </div>
